@@ -58,8 +58,46 @@ header {
 }
 
 .point:before {
-    content: "·";
+    content: "Â·";
     color: #494e62;
     font-size: 12px;
     margin-right: 15px;
+}
+.slider {
+    border-bottom: 7px solid #ea676b;
+    width: 1020px;
+    background: #f06c64;
+}
+
+.phone2 {
+    position: absolute;
+    margin: 69px 0 0 -332px;
+}
+
+.phone1 {
+    margin: -17px 0 27px 110px;
+}
+
+.phone1:before {
+    content: url("assets/chev.png");
+}
+
+.arrow1 {
+    position: absolute;
+    z-index: 20;
+    margin: -312px 0 0 42px;
+}
+
+.arrow1:hover {
+    content: url("assets/chev (2).png");
+}
+
+.arrow2 {
+    position: absolute;
+    z-index: 20;
+    margin: -312px 0 0 964px;
+}
+
+.arrow2:hover {
+    content: url("assets/chev (5).png");
 }
