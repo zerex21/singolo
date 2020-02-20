@@ -101,3 +101,93 @@ header {
 .arrow2:hover {
     content: url("assets/chev (5).png");
 }
+.services h1 {
+    padding: 68px 0 28px 40px;
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-weight: 900;
+    font-family: "Lato_Black";
+}
+
+.services p {
+    padding: 0 0 0 40px;
+    width: 950px;
+    height: 56px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato_Light";
+    font-weight: 300;
+}
+
+.option h1 {
+    margin: 0 0 -17px 0;
+    font-size: 18px;
+    line-height: 17px;
+    color: #666d89;
+    font-family: "Lato_Black";
+    font-weight: 900;
+}
+
+.option p {
+    width: 219px;
+    height: 128px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato_Regular";
+    font-weight: 400;
+}
+
+.option {
+    margin: -20px -20px -80px 80px;
+    flex-basis: 30%;
+}
+
+.common {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.design:after {
+    position: absolute;
+    z-index: 20;
+    margin: -75px 0 0 40px;
+    content: url("assets/pen.png");
+}
+
+.ideas:after {
+    position: absolute;
+    z-index: 20;
+    margin: -75px 0 0 40px;
+    content: url("assets/lightbulb.png");
+}
+
+.answer:after {
+    position: absolute;
+    z-index: 20;
+    margin: -75px 0 0 40px;
+    content: url("assets/heart.png");
+}
+
+.loyout:after {
+    position: absolute;
+    z-index: 20;
+    margin: -75px 0 0 40px;
+    content: url("assets/phone.png");
+}
+
+.support:after {
+    position: absolute;
+    z-index: 20;
+    margin: -75px 0 0 40px;
+    content: url("assets/bubble.png");
+}
+
+.star:after {
+    position: absolute;
+    z-index: 20;
+    margin: -75px 0 0 40px;
+    content: url("assets/Star.png");
+}
