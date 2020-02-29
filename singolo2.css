@@ -88,3 +88,62 @@
         height: 187px;
         width: 220px;
     }
+ .item1 {
+        background: url("assets/Project (1).png");
+        background-position: -9px -10px;
+    }
+    
+    .item2 {
+        background: url("assets/Project (4).png");
+        background-position: -82px -42px;
+    }
+    
+    .item3 {
+        background: url("assets/Layer 9.png");
+        background-position: -10px -0px;
+    }
+    
+    .item4 {
+        background: url("assets/Project (8).png");
+        background-position: -23px 0px;
+    }
+    
+    .item5 {
+        background: url("assets/Project (2).png");
+        background-position: -10px -17px;
+    }
+    
+    .item6 {
+        background: url("assets/Project (5).png");
+        background-position: -15px -5px;
+    }
+    
+    .item7 {
+        background: url("assets/Layer 11.png");
+        background-position: -30px -40px;
+    }
+    
+    .item8 {
+        background: url("assets/Layer 8.png");
+        background-position: -23px -33px;
+    }
+    
+    .item9 {
+        background: url("assets/Project (3).png");
+        background-position: -15px -2px;
+    }
+    
+    .item10 {
+        background: url("assets/Project (6).png");
+        background-position: -141px -116px;
+    }
+    
+    .item11 {
+        background: url("assets/Project (7).png");
+        background-position: -143px -175px;
+    }
+    
+    .item12 {
+        background: url("assets/Project (9).png");
+        background-position: -34px -61px;
+    }
