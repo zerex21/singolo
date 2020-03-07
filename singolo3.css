@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+}
+
+body {
+    margin: auto;
+    width: 1020px;
+}
+
+.wrapper {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.quote h1 {
+    padding-top: 68px;
+    font-size: 30px;
+    line-height: 18px;
+    color: #f0d8d9;
+    font-family: "Lato_Black";
+    font-weight: 900;
+}
+
+.discription {
+    padding-top: 27px;
+    width: 940px;
+    height: 57px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #f0d8d9;
+    font-family: "Lato_Light";
+    font-weight: 300;
+}
+
+.quote {
+    background: #f06c64;
+    border-bottom: 6px solid #ea676b;
+}
+
+.quote__block {
+    display: flex;
+}
+
+.forms {
+    margin-top: 47px;
+}
+
+.name {
+    border: none;
+    width: 619px;
+    height: 36px;
+    border-radius: 5px;
+    background-color: #d6564f;
+    margin-bottom: 16px;
+}
+
+.email {
+    border: none;
+    width: 619px;
+    height: 36px;
+    border-radius: 5px;
+    background-color: #d6564f;
+    margin-bottom: 16px;
+}
+
+.text {
+    border: none;
+    width: 619px;
+    height: 36px;
+    border-radius: 5px;
+    background-color: #d6564f;
+    margin-bottom: 16px;
+}
+
+.message {
+    resize: none;
+    border: none;
+    width: 616px;
+    height: 198px;
+    border-radius: 5px;
+    background-color: #d6564f;
+}
+
+::-moz-placeholder {
+    font-size: 12px;
+    line-height: 22px;
+    color: #f48c8f;
+    font-family: "Lato_regular";
+    font-weight: 400;
+}
+
+:-moz-placeholder {
+    font-size: 12px;
+    line-height: 22px;
+    color: #f48c8f;
+    font-family: "Lato_regular";
+    font-weight: 400;
+}
+
+::placeholder {
+    padding: 15px 0 14px 15px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #f48c8f;
+    font-family: "Lato_regular";
+    font-weight: 400;
+}
+
+.message::placeholder {
+    padding: 5px 0 14px 13px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #f48c8f;
+    font-family: "Lato_regular";
+    font-weight: 400;
+}
+
+.btn_form {
+    width: 80px;
+    height: 38px;
+    border-radius: 5px;
+    background-color: #d6564f;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.btn :hover {
+    color: white;
+    cursor: pointer;
+}
+
+.information__block {
+    margin-top: 47px;
+    padding-left: 20px;
+}
+
+.information__block h3 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #f0d8d9;
+    font-family: "Lato_black";
+    font-weight: 900;
+    text-align: left;
+}
+
+.information__discription {
+    margin-top: 10px;
+    width: 300px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #f0d8d9;
+    font-family: "Lato_regular";
+    font-weight: 400;
+}
+
+.coord {
+    margin-top: 20px;
+    width: 300px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #f0d8e6;
+    font-family: "Lato_regular";
+    font-weight: 400;
+}
+
+.coord :before {
+    content: url("assets/location.png");
+    margin-left: 3px;
+    margin-right: 12px;
+}
+
+.coord :hover {
+    color: indigo;
+}
+
+.phone ::before {
+    content: url("assets/phone (2).png");
+    margin-right: 12px;
+}
+
+.phone :hover {
+    color: indigo;
+}
+
+.imail ::before {
+    content: url("assets/mail.png");
+    margin-right: 10px;
+}
+
+.imail :hover {
+    color: indigo;
+}
+
+.information__block a {
+    width: 300px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #f0d8d9;
+    font-family: "Lato_regular";
+    font-weight: 400;
+    text-decoration: none;
+}
