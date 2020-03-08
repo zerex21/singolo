@@ -63,6 +63,7 @@ header {
 }
 
 .point:before {
+    cursor: pointer;
     content: "·";
     color: #494e62;
     font-size: 12px;
@@ -85,6 +86,7 @@ header {
 }
 
 .phone1:before {
+    cursor: pointer;
     content: url("assets/chev.png");
 }
 
@@ -95,10 +97,12 @@ header {
 }
 
 .arrow1:hover {
+    cursor: pointer;
     content: url("assets/chev (2).png");
 }
 
 .arrow1:hover {
+    cursor: pointer;
     background: url("assets/chev (2).png");
 }
 
@@ -109,10 +113,12 @@ header {
 }
 
 .arrow2:hover {
+    cursor: pointer;
     content: url("assets/chev (5).png");
 }
 
 .arrow2:hover {
+    cursor: pointer;
     background: url("assets/chev (5).png");
 }
 
@@ -276,6 +282,7 @@ header {
 }
 
 .tag:hover {
+    cursor: pointer;
     color: white;
     border: 1px solid white;
 }
