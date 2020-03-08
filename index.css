@@ -398,10 +398,14 @@ header {
 }
 
 .staff {
+    overflow: hidden;
+    text-overflow: ellipsis;
     padding-right: 20px;
 }
 
 .staff h3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
     text-align: left;
     padding-top: 12px;
     font-size: 18px;
