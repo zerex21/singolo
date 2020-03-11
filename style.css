@@ -363,67 +363,62 @@ header {
     background-position: -34px -61px;
 }
 
-.about {
-    border-bottom: 6px solid #ffffff;
-}
-
-.about .wrapper {
-    background: #f2f2f2;
-}
-
-.about h1 {
-    padding-top: 67px;
-    font-size: 30px;
-    line-height: 18px;
-    color: #666d89;
-    font-family: "Lato_Black";
-    font-weight: 900;
-}
-
-.about__description {
-    text-align: justify;
-    padding-top: 28px;
-    padding-bottom: 49px;
-    width: 940px;
-    height: 57px;
-    font-size: 18px;
-    line-height: 30px;
-    color: #767e9e;
-    font-family: "Lato_Light";
-    font-weight: 300;
-}
-
-.layout-3-colomn {
-    display: flex;
-}
-
-.staff {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    padding-right: 20px;
-}
-
-.staff h3 {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    text-align: left;
-    padding-top: 12px;
-    font-size: 18px;
-    line-height: 18px;
-    color: #666d89;
-    font-family: "Lato_Black";
-    font-weight: 900;
-}
-
-.staff__description {
-    padding-top: 10px;
-    font-size: 12px;
-    line-height: 22px;
-    color: #767e9e;
-    font-family: "Lato_Regular";
-    font-weight: 400;
-}
-
+ .about {
+        border-bottom: 6px solid #ffffff;
+    }
+    
+    .about .wrapper {
+        background: #f2f2f2;
+    }
+    
+    .about h1 {
+        padding-top: 67px;
+        font-size: 30px;
+        line-height: 18px;
+        color: #666d89;
+        font-family: "Lato_Black";
+        font-weight: 900;
+    }
+    
+    .about__description {
+        text-align: justify;
+        padding-top: 28px;
+        padding-bottom: 49px;
+        width: 940px;
+        height: 57px;
+        font-size: 18px;
+        line-height: 30px;
+        color: #767e9e;
+        font-family: "Lato_Light";
+        font-weight: 300;
+    }
+    
+    .layout-3-colomn {
+        display: flex;
+    }
+    
+    .staff {
+        padding-right: 20px;
+    }
+    
+    .staff h3 {
+        text-align: left;
+        padding-top: 12px;
+        font-size: 18px;
+        line-height: 18px;
+        color: #666d89;
+        font-family: "Lato_Black";
+        font-weight: 900;
+    }
+    
+    .staff__description {
+        padding-top: 10px;
+        font-size: 12px;
+        line-height: 22px;
+        color: #767e9e;
+        font-family: "Lato_Regular";
+        font-weight: 400;
+    }
 .icons {
     padding-top: 22px;
     display: flex;
